@@ -1,0 +1,58 @@
+        h1{text-align: center;
+            text-indent: 50px;
+            font-weight:bold;
+            text-decoration:dotted;
+            background-color: antiquewhite;
+            border-style:dashed;
+            border: 4px solid violet;
+            border-radius: 150px;
+            color: rgb(151, 89, 154);
+            padding: 10px;
+            font-family:'Lucida Sans';
+        }
+        .pierwsza{ 
+            /* color: rgb(151, 89, 154) ; */
+            color: violet;
+            text-align: center;
+            text-indent: 45px;
+            font-weight:600;
+            font-style: oblique;
+            background-color: antiquewhite;
+            opacity: 0.85;
+            border: 4px solid antiquewhite;
+            border-radius: 150px;
+            padding: 10px;
+        }
+        .kotprawy{
+            height:100px;
+            width: 100px;
+            clip-path: circle(90%);
+            float: right;
+            shape-outside: circle(45%);
+        }
+        .kotlewy{
+            height:100px;
+            width: 100px;
+            clip-path: circle(90%);
+            float: left;
+            shape-outside: circle(45%);
+        }
+        .verse{
+            margin: 0.8cm 0;
+        }
+        section{width: 70%; margin: auto}
+        body{
+            background-image: url(tlokot.gif);
+            background-size: cover;
+            background-position: center;
+            font-family: "Indie Flower", sans-serif ;
+              }
+        footer{
+            text-align:justify;
+            padding-left: 5%;
+            background-color: antiquewhite;
+            color:darkmagenta;
+            border-style:dashed;
+            border: 4px solid violet;
+            border-radius: 150px;
+        }
